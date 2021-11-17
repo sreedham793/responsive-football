@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header area css */
+header{
+    background-color: rgb(9, 9, 231);
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+header div ul{
+    list-style-type: none;
+    display: flex;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+ul a:first-of-type{
+    margin-left: 0;
+    padding-left: 0;
+}
+a:hover{
+    color: chocolate;
+}
+.log-btn, .watch-btn{
+    background-color: rgb(236, 105, 82);
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 30px;
+}
+
+
+/* header-content area css */
+.header-content{
+    background-color: rgb(9, 9, 231);
+    display: flex;
+    padding: 0 100px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-content div{
+    margin: 50px 0;
+}
+.header-content div h1{
+    color: white;
+    word-wrap: break-word;
+    line-height: .5em;
+    letter-spacing: .1rem;
+}
+.footer-content .left-div{
+    flex-basis: 50%;
+}
+
+.header-content .left-div h1{
+    text-transform: uppercase;
+}
+
+
+
+/* main-content-area area css */
+.main-content-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+.main-content-area div{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px gray;
+
+    flex-basis: 400px;
+    flex-grow: 0;
+}
+
+
+/* footer-content area css */
+.footer-content{
+    display: flex;
+    margin: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content div{
+    margin: 20px;
+}
+
+.footer-content div h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2rem;
+
+}
+
+
+
+
+/* footer area css */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+footer div img{
+    width: 300px;
+    height: auto;
+}
+
+
+
+
+
+
+img{
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+}
+h1{
+    font-size: 2.8em;
+    font-weight: 700;
+
+}
+.social-icons img{
+    width: 40px;
+    height: auto;
+}
+.fas{
+    margin: 0 5px;
+}
