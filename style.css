@@ -126,6 +126,33 @@ footer div img{
 }
 
 
+/* Mobile responsive */
+@media screen and (max-Width: 768px) {
+
+    header{
+        display: none;
+    }
+
+    /* header content area */
+    .header-content{
+        flex-direction: column;
+        padding: 0;
+    }
+    .main-content-area{
+        flex-direction: column;
+    }
+
+    /* footer content */
+    .footer-content{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .footer-right-div .right-div-img{
+        width: 100%;
+    }
+}
+
 
 
 
